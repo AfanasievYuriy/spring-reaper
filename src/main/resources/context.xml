@@ -8,5 +8,7 @@
         <property name="message" value="I will be back"/>
     </bean>
 
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
     <bean class="quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 </beans>
