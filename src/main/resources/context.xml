@@ -4,7 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean class="quoters.TerminatorQuoter" id="terminatorQuoter">
-    <property name="message" value="I will be back"/>
-</bean>
+    <bean class="quoters.TerminatorQuoter" id="terminatorQuoter">
+        <property name="message" value="I will be back"/>
+    </bean>
+
+    <bean class="quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 </beans>
