@@ -29,6 +29,5 @@ public class TerminatorQuoter implements Quoter {
             System.out.println(message);
 
         }
-        System.out.println("message = " + message);
     }
 }
